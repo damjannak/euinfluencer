@@ -2,6 +2,7 @@
    background-image: url("./img/backgraund.jpg");
    width: 100%;
    height: 95%;
+   max-width: 100%;
 }
 .container-fluid_header .btn{
    position: absolute;
@@ -32,29 +33,33 @@
    margin: 6px 0;
 }
 .container-fluid_text {
-   /*width: 100%;*/
    position: absolute;
    margin-top: -30%;
    color: white;
    text-align: center;
 }
-.container-fluid_text button{
-   position: absolute;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   /*background-color: red;*/
-   color: black;
-   font-size: 14px;
-   padding: 30px 150px;
-   border: none;
-   cursor: pointer;
-   border-radius: 30px;
-   text-align: center;
-   background: rgb(255,89,91);
-   background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);
+.container-fluid_text h2{
+   padding: 30px
+
 }
+/*.container-fluid_text button{*/
+/*   position: absolute;*/
+/*   transform: translate(-50%, -50%);*/
+/*   -ms-transform: translate(-50%, -50%);*/
+/*   !*background-color: red;*!*/
+/*   color: black;*/
+/*   font-size: 14px;*/
+/*   padding: 30px 150px;*/
+/*   border: none;*/
+/*   cursor: pointer;*/
+/*   border-radius: 30px;*/
+/*   text-align: center;*/
+/*   background: rgb(255,89,91);*/
+/*   background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);*/
+/*}*/
+
 .container-fluid_text button1{
-   position: absolute;
+   /*position: absolute;*/
    transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
    /*background-color: red;*/
@@ -68,18 +73,70 @@
    background: rgb(255,89,91);
    background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);
 }
-.row_section2{
-   padding: 5%;
+.col-sm-6-jenifer{
+   margin-left: -10%;
+   width: 10%;
+   height: 30%;
+   padding-top: 7%;
 }
-.col-sm-6 p1{
+.col-sm-6-jenifer p {
+   width: 40%;
+   margin-left: 15%;
+   height: 10%;
+}
+
+.hexsagon{
+   margin-left: 40%;
+   width: 250px;
+   height: 500px;
+   background-position:center;
+   background: green;
+   overflow: hidden;
+   visibility: hidden;
+   -moz-transform: rotate(120deg);
+   -ms-transform: rotate(120deg);
+   -o-transform: rotate(120deg);
+   -webkit-transform: rotate(120deg);
+}
+.hexsagon-in{
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background: red;
+   transform: rotate(60deg);
+   overflow: hidden;
+   -moz-transform: rotate(120deg);
+   -ms-transform: rotate(120deg);
+   -o-transform: rotate(120deg);
+   -webkit-transform: rotate(120deg);
+}
+.hexsagon-image{
+   width: 100%;
+   height: 100%;
+   background-image: url("./img/Jenifer_Baker.jpg");
+   background-size: 100% 60%;
+   background-position: center;
+   transform: rotate(60deg);
+   visibility: visible;
+   -moz-transform: rotate(120deg);
+   -ms-transform: rotate(120deg);
+   -o-transform: rotate(120deg);
+   -webkit-transform: rotate(120deg);
+
+}
+.col-sm-6-jenifer p{
    color: black;
-   font-size: 18px;
-   font-family: "Roboto", sans-serif;
+   font-size: 22px;
+   font-family:Sans-serif Bold
 }
 .col-sm-6 h3{
-   margin-left: 4%;
+   margin-left: 20%;
+   padding-top: 2%;
 }
-.container-fluid_2 button1{
+.col-sm-6-jenifer span{
+  color: red;
+}
+.container-fluid_jenifer button1{
    position: absolute;
    transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
@@ -90,8 +147,8 @@
    cursor: pointer;
    border-radius: 30px;
    text-align: center;
-   margin-top: 2%;
-   margin-left: 8%;
+   margin-top: 3%;
+   margin-left: 16%;
    background: rgb(255,89,91);
    background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);
 }
@@ -99,12 +156,12 @@
    background: rgb(255,89,91);
    background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);
 }
-.bar4, .bar5, .bar6 {
-   width: 60px;
-   height: 5px;
-   background-color: black;
-   margin: 6px 0;
-}
+/*.bar4, .bar5, .bar6 {*/
+/*   width: 60px;*/
+/*   height: 5px;*/
+/*   background-color: black;*/
+/*   margin: 6px 0;*/
+/*}*/
 .row_bar{
    padding: 5%;
 
