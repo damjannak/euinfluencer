@@ -1,3 +1,11 @@
+@font-face {
+   src: url("./fonts/Poppins-Bold.ttf");
+   src: url("./fonts/Poppins-Medium.ttf");
+   src: url("./fonts/Poppins-ExtraBold.ttf");
+   src: url("./fonts/Poppins-SemiBold.ttf");
+   src: url("./fonts/Poppins-Regular.ttf");
+}
+
 .container-fluid_header{
    background-image: url("./img/backgraund.jpg");
    width: 100%;
@@ -18,6 +26,7 @@
    cursor: pointer;
    border-radius: 30px;
    text-align: center;
+   font-family: Poppins-Bold;
 }
 .container_menu{
    display: inline-block;
@@ -37,6 +46,8 @@
    margin-top: -30%;
    color: white;
    text-align: center;
+   font-family: Poppins-Regular;
+   font-size: 29px;
 }
 .container-fluid_text h2{
    padding: 30px
@@ -77,12 +88,16 @@
    margin-left: -10%;
    width: 10%;
    height: 30%;
-   padding-top: 7%;
+   padding-top: 5%;
 }
 .col-sm-6-jenifer p {
-   width: 40%;
-   margin-left: 15%;
+   width: 25%;
+   margin-left: 5%;
    height: 10%;
+   position: absolute;
+   color: black;
+   font-size: 22px;
+   font-family:Sans-serif Bold;
 }
 
 .hexsagon{
@@ -123,11 +138,11 @@
    -o-transform: rotate(120deg);
    -webkit-transform: rotate(120deg);
 
+
 }
 .col-sm-6-jenifer p{
-   color: black;
-   font-size: 22px;
-   font-family:Sans-serif Bold
+
+
 }
 .col-sm-6 h3{
    margin-left: 20%;
@@ -183,6 +198,8 @@
 
 .container_text{
    margin-top: -20%;
+   font-size: 29px;
+   font-family: Poppins-Regular;
 }
 .container-fluid_category{
    width: 100%;
@@ -190,35 +207,32 @@
    text-align: center;
    margin-top: 1%;
    background-image: url("./img/bg3.jpg" );
-   padding-top: 30%;
+   padding-top: 25%;
+   font-family: Poppins-Bold;
+   font-size: 46px;
+   max-width: 100%;
+
 }
 .container-fluid_category h2{
    text-align: center;
    color: white;
    margin-top: -25%;
 }
-.container-fluid_category img{
-   /*padding-top: 3%;*/
-   /*max-width: 100%;*/
-}
 .col-sm-2 h4{
-   /*padding: 5%;*/
    margin-left: 12%;
    margin-top: -7%;
    color: white;
    position: absolute;
 }
-.container-fluid_online{
-   background-image: url("./img/bg5.jpg");
-   /*padding: 15%;*/
-   width: 100%;
-   padding-top: 25%;
-   height: 50%;
-   position: absolute;
-   margin-top: 30%;
+
+img{
+   max-width: 100%;
+}
+.col-sm-2 h4{
+   margin-top: 10px;
+   margin-left: 1%;
 }
 .container-fluid_online button1{
-   position: absolute;
    transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
    /*background-color: red;*/
@@ -231,29 +245,28 @@
    text-align: center;
    background: rgb(255,89,91);
    background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);
+   margin-left: 30%;
+}
+.col-sm-6 h1{
+   margin-left: 40%;
+   margin-top: 15%;
+}
+.col-sm-6 h3{
    margin-top: 2%;
+   margin-left: 50%;
 }
-.container-fluid_online row{
-   padding: 15%;
-   margin-top: 10%;
-   /*position: absolute;*/
+.col-sm-6 button1{
+   margin-left: 28%;
+   margin-top: 3%;
+   position: absolute;
 }
-.container_online{
-   margin-top: -10%;
-}
-.col-sm-6 hr {
-   color: red;
-   width: 60%;
-   margin-left: 20%;
-}
-
-img{
+.container-fluid_online{
    max-width: 100%;
+   height: 40%;
+   padding-bottom: 15%;
 }
-a img{
-   max-width: 100%;
-}
-.col-sm-2 h4{
-   margin-top: 10px;
-   margin-left: 1%;
+.col-sm-6_intro {
+   padding: 10%;
+   margin-left: 40%;
+   position: absolute;
 }
