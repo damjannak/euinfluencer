@@ -270,3 +270,36 @@ img{
    margin-left: 40%;
    position: absolute;
 }
+.container-fluid_hosts .row{
+   margin-top: -2%;
+   width: 90%;
+   text-align: center;
+   margin-left: 5%;
+}
+.col-sm-4 button1{
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   /*background-color: red;*/
+   color: white;
+   font-size: 22px;
+   padding: 10px 40px;
+   border: none;
+   cursor: pointer;
+   border-radius: 30px;
+   text-align: center;
+   background: darkblue;
+   position: relative;
+}
+.col-sm-4 h3{
+   margin-top: 5%;
+}
+.col-sm-4 h4{
+   margin-top: 5%;
+}
+.container-fluid_hosts .col-sm-4{
+   text-align: center;
+   margin-top: -30%;
+   color: white;
+   padding: 5%;
+}
+
