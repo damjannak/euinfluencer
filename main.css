@@ -302,4 +302,25 @@ img{
    color: white;
    padding: 5%;
 }
+.card button1{
+   position: absolute;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   color: white;
+   font-size: 15px;
+   padding: 10px 15px;
+   border: none;
+   cursor: pointer;
+   border-radius: 30px;
+   text-align: center;
+   background: rgb(255,89,91);
+   background: linear-gradient(90deg, rgba(255,89,91,1) 0%, rgba(239,41,136,1) 50%);
+   margin-top: 2%;
+}
+.card{
+   text-align: center;
+}
+.container-fluid_articles {
+padding: 10%;
+}
 
