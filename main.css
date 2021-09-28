@@ -323,4 +323,10 @@ img{
 .container-fluid_articles {
 padding: 10%;
 }
+.container-fluid_videos {
+   background-image: url("./img/bg_111.png");
+   max-width: 100%;
+   text-align: center;
+   color: white;
+}
 
