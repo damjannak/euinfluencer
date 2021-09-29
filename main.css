@@ -329,4 +329,19 @@ padding: 10%;
    text-align: center;
    color: white;
 }
+.container-fluid_conversation{
+   background-image: url("./img/bgl.png");
+   width: 100%;
+   padding-top: 25%;
+}
+.container-fluid_conversation{
+   color: white;
+   text-align: center;
+}
+.container-fluid_footer{
+   /*width: 100%;*/
+   background-image: url("./img/bgfoter.png");
+   padding-top: 5%;
+   max-width: 100%;
+}
 
